@@ -2,5 +2,5 @@
 
 Projet de transformation des données brutes d'Airbnb
 
-Test
+Il contient les annonces (listings), les avis voyageurs (reviews) et le calendrier de disponibilité (calendar)
 
