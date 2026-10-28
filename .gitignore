@@ -22,3 +22,12 @@ data/
 .vscode/
 .idea/
 .DS_Store
+
+# Notebooks et outils Python
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+*.log
+
+# Archives de données
+*.zip
