@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Secrets
+.env
+*.pem
+*.key
+
+# Données
+data/
+*.csv
+*.csv.gz
+*.parquet
+
+# Databricks
+.databricks/
+
+# Éditeurs et système
+.vscode/
+.idea/
+.DS_Store
+
+# Notebooks et outils Python
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+*.log
+
+# Archives de données
+*.zip
