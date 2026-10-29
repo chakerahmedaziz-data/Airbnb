@@ -12,8 +12,8 @@
 | # | Phase | Tâche | IA | Statut | Verdict | Notes |
 |---|---|---|---|---|---|---|
 | 1 | Git | Créer le dépôt GitHub (README, .gitignore, licence) | | ✅ validée | Validée avec réserves | PR #1 fusionnée, MIT, .gitignore enrichi. Réserves : commit avec placeholder « <ta licence> », branche distante à supprimer |
-| 2 | Git | Protéger `main` et définir la stratégie de branches / commits | | ⏳ en cours | | |
-| 3 | Git | Concevoir la structure du projet | | ⬜ à faire | | |
+| 2 | Git | Protéger `main` et définir la stratégie de branches / commits | | ✅ validée | Validée | Règle PR obligatoire testée (GH006), approbations à 0 (travail en solo), suppression auto des branches, e-mail noreply, CONTRIBUTING.md + PROGRESSION.md mergés (PR #2), dépôt public |
+| 3 | Git | Concevoir la structure du projet | | ⏳ en cours | | |
 | 4 | Environnement | Configurer le workspace, Unity Catalog et connecter Git | | ⬜ à faire | | |
 | 5 | Bronze | Récupérer et décrire les données brutes | | ⬜ à faire | | |
 | 6 | Bronze | Ingestion Bronze rejouable avec métadonnées | | ⬜ à faire | | |
@@ -42,9 +42,12 @@ Statuts : ⬜ à faire · ⏳ en cours · ✅ validée · 🔁 à retravailler �
 - Tâche 1 : .gitignore initialement repris de l'exemple ; compris et complété ensuite
 
 ## Décisions techniques
+- 2026-10-28 : Dépôt passé en public (les règles de protection ne sont pas appliquées sur un dépôt privé en offre gratuite). Adresse e-mail Git remplacée par l'adresse noreply GitHub.
+- 2026-10-28 : Protection de main = PR obligatoire, 0 approbation requise (projet solo). À remettre à 1 en équipe.
 - 2026-10-27 : GitHub choisi comme plateforme Git (écosystème le plus répandu, GitHub Actions pour la CI).
 - 2026-10-28 : Licence MIT retenue (permissive, simple, adaptée à un projet de portfolio).
 - 2026-10-27 : Jeu de données Inside Airbnb Paris retenu (texte libre multilingue, dimension temporelle, gros volume d'avis).
 
 ## Aides utilisées
 - Tâche 1 : guidage pas à pas (niveau 3) demandé après 4 rendus incomplets ; blocage sur branche / PR / licence
+- Tâche 2 : guidage pas à pas (niveau 3) demandé ; modèle de CONTRIBUTING.md fourni, version propre générée suite à des antislashs/numérotation parasites
