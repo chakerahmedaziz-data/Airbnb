@@ -55,9 +55,9 @@ Unity Catalog organise les objets sur trois niveaux : `catalogue.schéma.table`.
 | Colonne | `snake_case`, sans accents ni espaces | `host_id`, `review_date` |
 | Colonne technique | Préfixe `_` | `_ingested_at`, `_source_file` |
 
-Le nom exact du catalogue (par exemple `airbnb_dev` et `airbnb_prod`, ou le catalogue par défaut de l'espace de travail) sera fixé à la tâche 4, selon ce que la Free Edition autorise.
+Le catalogue du projet est `airbnb`.
 
-Exemple de nom complet : `<catalogue>.silver.reviews`.
+Exemple de nom complet : `airbnb.silver.reviews`.
 
 ## Décisions
 
